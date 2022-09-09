@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.wtapp.adapter.ListOfFriendsAdapter
 import com.example.wtapp.R
+import com.example.wtapp.adapter.ListOfMessagesAdapter
 
 
 class ChatFragment : Fragment() {
@@ -25,7 +26,7 @@ class ChatFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         chatRecycler = view.findViewById(R.id.chatRecycler)
-        chatRecycler.adapter = ListOfFriendsAdapter(requireContext())
+        chatRecycler.adapter = ListOfMessagesAdapter(requireContext())
         chatRecycler.layoutManager= LinearLayoutManager(requireContext())
     }
 

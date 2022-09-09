@@ -21,9 +21,9 @@ class SampleData {
 }
 class SampleMessages{
     val LIST_OF_MESSAGES: List <Message> = listOf(
-        Message ("Firdaus", "19:00","I need to finish this course"),
+        Message ("Firdaus", "19:00","I want chocolate!!!"),
         Message ("Hamad", "18:00","Yooo"),
-        Message ("Fareedah", "19:50","Food is ready"),
+        Message ("Fareedah", "19:50","Its okay to take a break"),
         Message ("Jasmine", "14:30","Hiiii"),
         Message ("Nasirah", "18:00","K bro"),
         Message ("Abdul", "2045","Suffecient for me is Allah"),
